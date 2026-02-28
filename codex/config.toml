@@ -6,8 +6,6 @@ hide_agent_reasoning = true
 
 # Notify（Claude Hooks相当）で音を鳴らす
 notify = ["bash", "-lc", "afplay /System/Library/Sounds/Ping.aiff"]
-personality = "pragmatic"
 
-[tools]
-# Web検索
-web_search = true
+web_search = 'live'
+personality = "pragmatic"
