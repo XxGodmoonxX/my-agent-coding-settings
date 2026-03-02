@@ -1,0 +1,21 @@
+# CodeRabbit 設定（最小構成）
+# デフォルト値と同じプロパティは省略し、非デフォルトのみ明示します。
+# 参照: https://docs.coderabbit.ai/reference/configuration
+
+# レビュー言語
+language: 'ja-JP'
+
+reviews:
+  auto_review:
+    # デフォルトブランチに加えて staging 向けPR/MRでも自動レビューを有効化
+    base_branches: ['staging']
+
+knowledge_base:
+  learnings:
+    # 学習データスコープをリポジトリに限定
+    scope: 'local'
+
+code_generation:
+  docstrings:
+    # Docstring生成言語
+    language: 'ja-JP'
