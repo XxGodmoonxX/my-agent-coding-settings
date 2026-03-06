@@ -1,8 +1,8 @@
 # モデル
-model = "gpt-5.3-codex"
+model = "gpt-5.4"
 # 推論
 model_reasoning_effort = "high"
-hide_agent_reasoning = true
+# hide_agent_reasoning = true
 
 # Notify（Claude Hooks相当）で音を鳴らす
 notify = ["bash", "-lc", "afplay /System/Library/Sounds/Ping.aiff"]
