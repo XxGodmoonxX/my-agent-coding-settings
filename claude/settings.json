@@ -85,7 +85,7 @@
     "additionalDirectories": ["~/.claude/plugins/cache/openai-codex"]
   },
   "model": "claude-fable-5[1m]",
-  "fallbackModel": ["claude-opus-4-7"],
+  "fallbackModel": ["claude-opus-5"],
   "hooks": {
     "Notification": [
       {
